@@ -1,4 +1,4 @@
-module github.com/robinjoseph08/redisqueue/v2
+module github.com/cuiwm/redisqueue
 
 go 1.12
 
