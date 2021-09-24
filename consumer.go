@@ -114,7 +114,7 @@ func NewConsumerWithOptions(ctx context.Context, options *ConsumerOptions) (*Con
 		options.Name = hostname
 	}
 	if options.GroupName == "" {
-		options.GroupName = "redisqueue"
+		options.GroupName = hostname
 	}
 	if options.BlockingTimeout == 0 {
 		options.BlockingTimeout = 5 * time.Second
